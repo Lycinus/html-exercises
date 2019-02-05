@@ -1,0 +1,39 @@
+/* PHASE 2: Notifications */
+.header {
+    z-index: 1;
+    position: relative;
+}
+
+.badge {
+    border-radius: 20px;
+    padding: 2px 7px;
+    margin-left: 6px;
+    background: black
+}
+
+.header-list li:first-child {
+    position: relative
+}
+
+.header-list li:first-child ul {
+    display: none;
+    white-space: nowrap;
+}
+
+.header-list li:first-child:hover ul {
+    display: inline;
+    position: absolute;
+    background: red;
+    min-width: 100%
+}
+
+.header-list li:first-child ul li {
+    background: white;
+    color: black
+}
+
+
+.header-list li:first-child ul li:hover {
+    background: #000;
+    color: white;
+}
