@@ -1,0 +1,36 @@
+/* PHASE 3: Layout */
+
+.content {
+    display: flex;
+    justify-content: space-evenly 
+}
+.content-sidebar {
+    padding: 10px;
+    margin: 5px;
+    width: 25%;
+    min-height: 200px;
+    border: 2px solid gray
+}
+
+.content-main {
+    padding: 10px;
+    margin: 5px;
+    width: 75%;
+    min-height: 200px;
+    border: 2px solid gray
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray
+}
+
+footer ul {
+    display: flex;
+    padding: 10px 0
+}
+
+footer ul li {
+    padding: 0 5px;
+}
