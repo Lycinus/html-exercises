@@ -1,0 +1,10 @@
+/* PHASE 8: Thumbs */
+.friends-grid {
+    display: flex;
+    width: 100%;
+}
+
+.friends-grid li {
+    width: 50px;
+    margin: 5px;
+}
